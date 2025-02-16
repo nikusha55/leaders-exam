@@ -1,0 +1,201 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo img {
+    width: 120px;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header nav ul li {
+    display: inline;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+.hero {
+    padding: 80px 20px;
+    background: white;
+}
+
+.hero-image {
+    width: 60%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.email-form input {
+    padding: 12px;
+    width: 280px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email-form button {
+    padding: 12px 20px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.features {
+    padding: 80px 20px;
+    background: #f0f4f8;
+}
+
+.features h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.features p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.quote-icon {
+    width: 30px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.features blockquote {
+    font-style: italic;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+
+.illustration {
+    padding: 50px;
+    background: white;
+}
+
+.illustration-image {
+    width: 80%;
+    max-width: 600px;
+}
+
+
+.early-access {
+    padding: 80px 20px;
+    background: #4a90e2;
+    color: white;
+}
+
+.early-access h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.early-access p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.email-form button img {
+    width: 15px;
+    margin-left: 5px;
+}
+
+
+.footer {
+    background: #091b2a;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer p {
+    font-size: 14px;
+}
